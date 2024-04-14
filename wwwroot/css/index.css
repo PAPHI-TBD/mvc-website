@@ -1,0 +1,178 @@
+﻿.navbar-nav .nav-link,
+.navbar-text, .navbar-brand {
+    color: white !important;
+    font-family: Modern Era,sans-serif !important;
+}
+
+.navbar-expand-lg .navbar-nav {
+    padding-left: 14px;
+}
+
+.navbar-light .navbar-text {
+    padding-right: 28px;
+}
+
+.nav-left-side {
+    padding: .75rem 1.5rem;
+}
+
+.flex-grow, .grow {
+    flex-grow: 1;
+}
+
+.header-section {
+    width: 100%;
+    height: 780px;
+    position: relative;
+}
+
+.heading-container {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the text is above the image */
+    color: white; /* Set the text color */
+    font-family: Tiempos Headline, serif;
+    font-weight: 600;
+    line-height: 1.18;
+    font-size: 3.625rem; /* Set the font size to 36 pixels (adjust as needed) */
+}
+
+.header-image {
+    height: 100%; /* Set the height to 887 pixels */
+    width: 100%; /* Set the width to 100% */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+.goals-section {
+    background-color: white;
+    width: 100%;
+    height: 1046px;
+}
+
+.goals-lead, .goals-mini-header {
+    font-family: Modern Era, sans-serif;
+}
+
+.goals-big-header {
+    font-family: Tiempos Headline, serif;
+    font-size: 2.75rem;
+}
+
+.goals-mini-header {
+    font-size: .9375rem;
+}
+
+.goals-lead {
+    font-size: 1rem;
+}
+
+.roadmap-section {
+    background-color: green;
+    width: 100%;
+    height: 1046px;
+}
+
+.career-section {
+    background-color: pink;
+    width: 100%;
+    height: 1046px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer {
+    color: white;
+    font-family: Modern Era, sans-serif;
+    background-color: rgb(26 26 26/1);
+    font-size: 1rem;
+    width: 100%;
+    height: 462px;
+}
+
+.footer-header {
+    color: rgb(163 163 163/1);
+    font-weight: 400;
+}
+
+#footer-text {
+    width: 267px;
+    font-weight: 700;
+}
+
+.nav-item .nav-link {
+    /* width: 267px; */
+    color: white !important;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* CSS rules for extra small devices */
+    .heading-container {
+        padding-left: 20% !important;
+        font-size: 3rem !important;
+        padding-top: 18% !important;
+    }
+
+    .navbar-brand {
+        top: 0px;
+    }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) {
+    /* CSS rules for small devices */
+    .heading-container {
+        padding-left: 5% !important;
+        font-size: 3.1rem !important;
+        padding-top: 5% !important;
+    }
+
+    .navbar-toggler {
+        margin-top: 10px; /* Add 10 pixels margin to the top */
+    }
+
+    .navbar-brand {
+        top: 10px;
+    }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) {
+    /* CSS rules for medium devices */
+    .heading-container {
+        padding-left: 5% !important;
+        font-size: 3.1rem !important;
+        padding-top: 5% !important;
+    }
+
+    .navbar-toggler {
+        margin-top: 10px; /* Add 10 pixels margin to the top */
+    }
+
+    .navbar-brand {
+        top: 10px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* CSS rules for large devices */
+    .heading-container {
+        padding-left: 5% !important;
+    }
+
+    .navbar-brand {
+        top: 10px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* CSS rules for extra large devices */
+}

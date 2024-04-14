@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mingely</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Mingley_Website.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white box-shadow mb-3" style="z-index: 500; background-color: transparent !important; position: fixed;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li>
+                            <a class="navbar-brand" style="position: fixed; font-size: 30px !important; padding: 0; color: white !important; left: 50% !important;" asp-area="" asp-controller="Home" asp-action="Index">Mingley</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="padding-left: 5vw !important; display: none !important; color: white !important;" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="padding-left: 5vw !important; color: white !important;" asp-area="" asp-controller="Goals" asp-action="Goals">Goals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="padding-left: 5vw !important; color: white !important;" asp-area="" asp-controller="Home" asp-action="Careers">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="padding-left: 5vw !important; color: white !important;" asp-area="" asp-controller="Home" asp-action="Roadmap">Roadmap</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" style="margin: 0 !important; padding: 0 !important; max-width: 100vw;">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Mingley_Website - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
