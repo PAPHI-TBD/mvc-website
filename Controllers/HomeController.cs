@@ -23,6 +23,15 @@ namespace Mingley_Website.Controllers
             return View();
         }
 
+        public IActionResult Goals()
+        {
+            return View();
+        }
+
+        public IActionResult Roadmap()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
