@@ -39,7 +39,7 @@ Upon decision, the `staging` branch is merged into the `production` branch, mark
   - HTML + CSS (Bootstrap)
     - Plan to migrate to React later
   - Azure Cloud Hosting
-- App
+- App (Here is a link to the repo: https://github.com/Mingley-AI/App)
   - SwiftUI
   - Firebase
 
