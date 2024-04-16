@@ -48,6 +48,22 @@ Founders:
 - Joshua Sam Badshah (Business Team Lead)
 
 Members: 
+- Software Development Team
+  - Team Leads
+    - Joshua De Chavez
+    - Deven Shah (insert role)
+    - Heba 
+  - Members
+    - 
+- UI/UX Team
+  - Team Leads
+    - Sammie Chau
+    - Taravee 
+  - Members
+    - Hsin
+    - Jamie
+    - Diego
+    - Annahi
 
 ## Licenses
 You can not use any code from the Mingley organization. 
