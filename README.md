@@ -3,6 +3,14 @@
 ## Project Description
 Mingley aims to help people find friends, events, and a community in new areas. We hope to foster safe and spontaneous hangouts for it's users.
 
+**Link to project:* (insert link later)
+
+## How to run the application (VSCode):
+- Download C# and C# Dev Kit in VS Code Extensions
+- Download .NET SDK 6.0.0 for your OS
+- Create a trusted security certificate
+- Run and debug
+
 Tech Stack: 
 - Website
   - HTML + CSS (Bootstrap)
@@ -12,11 +20,15 @@ Tech Stack:
   - SwiftUI
   - Firebase
 
-## Dependencies
-- Download C# and C# Dev Kit in VS Code Extensions
-- Download .NET SDK 6.0.0 for your OS
-- Create a trusted security certificate
-- Run and debug
+***Why was this teck stack chosen?***
+Insert description
+
+## Optimizations (optional)
+
+TBD
+
+## Lessons Learned
+- TBD
 
 ## Development and CI/CD Pipeline
 
