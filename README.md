@@ -11,25 +11,6 @@ Mingley aims to help people find friends, events, and a community in new areas. 
 - Create a trusted security certificate
 - Run and debug
 
-Tech Stack: 
-- Website
-  - HTML + CSS (Bootstrap)
-    - Plan to migrate to React later
-  - Azure Cloud Hosting
-- App
-  - SwiftUI
-  - Firebase
-
-***Why was this teck stack chosen?***
-Insert description
-
-## Optimizations (optional)
-
-TBD
-
-## Lessons Learned
-- TBD
-
 ## Development and CI/CD Pipeline
 
 ## Branches Overview
@@ -53,6 +34,24 @@ Once all identified bugs are resolved and the iteration reaches a stable state, 
 ## Production Deployment
 Upon decision, the `staging` branch is merged into the `production` branch, marking the release for deployment. With each push to the `production` branch, the CI/CD process is automatically initiated. This triggers deployment to the live destination, ensuring seamless updates to the production environment.
 
+## Tech Stack
+- Website
+  - HTML + CSS (Bootstrap)
+    - Plan to migrate to React later
+  - Azure Cloud Hosting
+- App
+  - SwiftUI
+  - Firebase
+
+***Why was this teck stack chosen?***
+Insert description
+
+## Optimizations (optional)
+
+TBD
+
+## Lessons Learned
+- TBD
 ## Credits
 Founders:
 - Joshua De Chavez (Full Stack Developer + Project Manager)
