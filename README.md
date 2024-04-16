@@ -54,6 +54,7 @@ Members:
     - Deven Shah (insert role)
     - Heba 
   - Members
+    - Brooke
     - 
 - UI/UX Team
   - Team Leads
