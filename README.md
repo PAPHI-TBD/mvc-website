@@ -67,6 +67,14 @@ Founders:
 - Clare Shen (Backend Developer)
 - Joshua Sam Badshah (Business Team Lead)
 
+## Future Considerations
+- Microservices Architecture
+  - We could shift the code to follow this model for:
+    -  Scalability: Different components of your application scale independently based on usage patterns, for better scalability and flexibility.
+    -  Technology Diversity: Cater to different technologies or frameworks for different parts of your application, for flexibility in technology choices for each service.
+    -  Resilience: Microservices promote fault isolation, meaning that issues in one service are less likely to impact the entire application, enhancing reliability and resilience.
+    -  Team Structure: If the development team is expands and we can divide it into smaller, autonomous teams responsible for individual services.
+
 Members: 
 - Software Development Team
   - Team Leads
