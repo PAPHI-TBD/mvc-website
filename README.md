@@ -46,6 +46,15 @@ Upon decision, the `staging` branch is merged into the `production` branch, mark
 ***Why was this teck stack chosen?***
 Insert description
 
+## Architecture
+- ***Monolithic Architecture***
+  - Simplicity: The team is relatively small and less experienced with distributed systems. This model makes it simpler to develop, deploy, and maintain the codebase.
+  - Rapid Development: Allows faster initial development since there's less overhead in managing multiple services and coordinating between them.
+  - Tight Integration: With all components tightly integrated within the same codebase, it can be easier to maintain consistency and ensure smooth interactions between different parts of the application.
+  - Resource Efficiency: For smaller applications with modest scalability requirements, a monolithic architecture may be more resource-efficient as it avoids the overhead of managing multiple services.
+
+
+
 ## Optimizations (optional)
 
 TBD
