@@ -3,7 +3,7 @@
 ## Project Description
 Mingley aims to help people find friends, events, and a community in new areas. We hope to foster safe and spontaneous hangouts for it's users.
 
-**Link to project:* (insert link later)
+**Link to project:* https://mingley.azurewebsites.net/
 
 ## How to run the application (VSCode):
 - Download C# and C# Dev Kit in VS Code Extensions
