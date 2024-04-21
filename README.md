@@ -45,12 +45,12 @@ Upon decision, the `staging` branch is merged into the `production` branch, mark
 
 ***Why was this teck stack chosen?***
 
-Initially we planned to use SwiftUI to start app development, but we found that some developers on our team did not have a MAC OS and we decided it was too inconvenient for them to create a VM and set up an environment. 
+For the Front-End we initially we planned to use ***SwiftUI*** to start app development, but we found that some developers on our team ***did not have*** a ***MAC OS*** and we decided it was too ***inconvenient*** for them to create a VM and set up an environment. 
 
-After some research, Joshua De Chavez led initiatives to use React Native for app development since:
-- Compatible with iOS and Android systems
-- Can be compiled and built through Echo
-- The homepage website is being refactored from HTML and CSS into React so it will be easier to transition to React Native after final development
+After some research, Joshua De Chavez led initiatives to use ***React Native*** for app development since:
+- ***Compatible*** with ***iOS*** and ***Android*** systems
+- Can be compiled and built through ***Echo***
+- The homepage website is being ***refactored*** from ***HTML*** and ***CSS*** into ***React*** so it will be ***easier*** to ***transition*** to ***React Native*** after final development
 
 For the backend we decided to use...
 
