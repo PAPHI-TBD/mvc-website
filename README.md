@@ -44,6 +44,7 @@ Upon decision, the `staging` branch is merged into the `production` branch, mark
   - Firebase
 
 ***Why was this teck stack chosen?***
+
 Initially we planned to use SwiftUI to start app development, but we found that some developers on our team did not have a MAC OS and we decided it was too inconvenient for them to create a VM and set up an environment. 
 
 After some research, Joshua De Chavez led initiatives to use React Native for app development since:
