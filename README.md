@@ -40,7 +40,7 @@ Upon decision, the `staging` branch is merged into the `production` branch, mark
     - Plan to migrate to React later
   - Azure Cloud Hosting
 - App (Here is a link to the repo: https://github.com/Mingley-AI/App)
-  - SwiftUI
+  - React Native
   - Firebase
 
 ***Why was this teck stack chosen?***
