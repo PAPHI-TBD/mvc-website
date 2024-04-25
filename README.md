@@ -13,6 +13,9 @@ Mingley aims to help people find friends, events, and a community in new areas. 
 
 ## Development and CI/CD Pipeline
 
+## Pushing and Deploying Code
+- Make sure to pull first before pushing
+
 ## Branches Overview
 The development pipeline is structured around the branches within the repository. Each branch represents a stage of development, allowing for parallel workstreams and controlled integration.
 
