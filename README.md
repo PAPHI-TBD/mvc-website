@@ -66,14 +66,13 @@ Finally we decided to use Microsoft Azure for...
   - Tight Integration: With all components tightly integrated within the same codebase, it can be easier to maintain consistency and ensure smooth interactions between different parts of the application.
   - Resource Efficiency: For smaller applications with modest scalability requirements, a monolithic architecture may be more resource-efficient as it avoids the overhead of managing multiple services.
 
-
-
 ## Optimizations (optional)
 
 TBD
 
 ## Lessons Learned
 - TBD
+
 ## Credits
 Founders:
 - Joshua De Chavez (Full Stack Developer + Project Manager)
@@ -90,22 +89,42 @@ Founders:
 
 Members: 
 - Software Development Team
-  - Team Leads
-    - Joshua De Chavez
-    - Deven Shah (insert role)
-    - Heba 
-  - Members
-    - Brooke
-    - 
+  - Full Stack Team
+    - Joshua De Chavez (Team Lead) (Project Manager)
+      - Brooke
+      - Johnny 
+      - Leo
+      - Maya
+      - Shireen
+      - Kailer
+      - Sami
+      - Will
+  - Front-End Team
+    - Heba (Team Lead)
+      - Arissa
+      - Precious
+      - Megha
+      - Jeanie
+      - Alyza
+  - Back-End Team
+    - Deven Shah (Team Lead)
+      - Insert Members
+  - Back-End Team
+    - Clare Shen (Team Lead)
+      - Insert Members
+
 - UI/UX Team
   - Team Leads
     - Sammie Chau
     - Taravee 
   - Members
     - Hsin
-    - Jamie
-    - Diego
-    - Annahi
+    - Kat
+    - Michelle
 
+- Business Team
+  - Joshua Badshah
+  - Apoorva
+  - Matt Dizon
 ## Licenses
 You can not use any code from the Mingley organization. 
