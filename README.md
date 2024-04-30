@@ -105,7 +105,7 @@ Members:
       - Precious
       - Megha
       - Jeanie
-      - Alyza
+  
   - Back-End Team
     - Deven Shah (Team Lead)
       - Insert Members
