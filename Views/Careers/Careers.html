@@ -3,7 +3,9 @@
 
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="~/css/careers.css" rel="stylesheet" />
+    <link href="Careers.cshtml.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-/" crossorigin="anonymous" />
+
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap JavaScript (optional, for certain features like dropdowns, modals, etc.) -->
@@ -15,82 +17,13 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
         <title>Download Mingley, new way to create new connections!</title>
-        <style>
-            .bd-placeholder-img {
-                font-size: 1.125rem;
-                text-anchor: middle;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                user-select: none;
-            }
-    
-            .b-example-divider {
-                width: 100%;
-                height: 3rem;
-                background-color: rgba(0, 0, 0, .1);
-                border: solid rgba(0, 0, 0, .15);
-                border-width: 1px 0;
-                box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-            }
-    
-            .b-example-vr {
-                flex-shrink: 0;
-                width: 1.5rem;
-                height: 100vh;
-            }
-    
-            .bi {
-                vertical-align: -.125em;
-                fill: currentColor;
-            }
-    
-            .nav-scroller {
-                position: relative;
-                z-index: 2;
-                height: 2.75rem;
-                overflow-y: hidden;
-            }
-    
-            .nav-scroller .nav {
-                display: flex;
-                flex-wrap: nowrap;
-                padding-bottom: 1rem;
-                margin-top: -1px;
-                overflow-x: auto;
-                text-align: center;
-                white-space: nowrap;
-                -webkit-overflow-scrolling: touch;
-            }
-    
-            .btn-bd-primary {
-                --bd-violet-bg: #712cf9;
-                --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-                --bs-btn-font-weight: 600;
-                --bs-btn-color: var(--bs-white);
-                --bs-btn-bg: var(--bd-violet-bg);
-                --bs-btn-border-color: var(--bd-violet-bg);
-                --bs-btn-hover-color: var(--bs-white);
-                --bs-btn-hover-bg: #6528e0;
-                --bs-btn-hover-border-color: #6528e0;
-                --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-                --bs-btn-active-color: var(--bs-btn-hover-color);
-                --bs-btn-active-bg: #5a23c8;
-                --bs-btn-active-border-color: #5a23c8;
-            }
-    
-            .bd-mode-toggle {
-                z-index: 1500;
-            }
-    
-            .bd-mode-toggle .dropdown-menu .active .bi {
-                display: block !important;
-            }
-        </style>
-    
-    </head>
     
 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top"
+
+ <body>
+
+        <main class="flex-grow" id="content">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top"
             style="background-color: transparent; display: none;">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -121,8 +54,7 @@
             </div>
         </nav>
 
-        <main class="flex-grow" id="content">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <header><div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -186,6 +118,8 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+        </header>
+            
             <div class="container marketing">
                 <h1>Meet our founders</h1>
                 <!-- Three columns of text below the carousel -->
@@ -200,7 +134,7 @@
                         <h2 class="fw-normal">Aproova</h2>
                         <p>Some representative placeholder content for the three columns of text below the carousel.
                             This is the first column.</p>
-                        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                       
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
@@ -212,19 +146,23 @@
                         <h2 class="fw-normal">Deven</h2>
                         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the
                             second column.</p>
-                        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                        
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                             preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
                             <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
                         </svg>
                         <h2 class="fw-normal">Joshua De Chavez</h2>
                         <p>And lastly this, the third column of representative placeholder content.</p>
-                        <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/jndechave/">View details
-                                &raquo;</a></p>
+                        <!-- Icons -->
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
 
@@ -232,21 +170,42 @@
                 <!-- START THE FEATURETTES -->
 
                 <hr class="featurette-divider">
-
+                <h1>Teams</h1>
                 <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
-                                class="text-body-secondary">It’ll blow your mind.</span></h2>
-                        <p class="lead">Some great placeholder content for the first featurette here. Imagine some
-                            exciting prose here.</p>
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span
+                                class="text-body-secondary">See for yourself.</span></h2>
+                        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea
+                            of how this layout would work with some actual real-world content in place.</p>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 order-md-1">
                         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                             width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
                             aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
                             <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-                                fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                                fill="var(--bs-secondary-color)" dy=".3em">UX/UI</text>
+                        </svg>
+                    </div>
+                </div>
+
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span
+                                class="text-body-secondary">See for yourself.</span></h2>
+                        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea
+                            of how this layout would work with some actual real-world content in place.</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
+                                fill="var(--bs-secondary-color)" dy=".3em">Software Development</text>
                         </svg>
                     </div>
                 </div>
@@ -266,98 +225,44 @@
                             aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
                             <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-                                fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                                fill="var(--bs-secondary-color)" dy=".3em">Market Research & Analysis</text>
                         </svg>
                     </div>
                 </div>
 
-                <hr class="featurette-divider">
 
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
-                                class="text-body-secondary">Checkmate.</span></h2>
-                        <p class="lead">And yes, this is the last block of representative placeholder content. Again,
-                            not really intended to be actually read, simply here to give you a better view of what this
-                            would look like with some actual content. Your content.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                            width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
-                            aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-                                fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                        </svg>
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
+        
 
                 <!-- /END THE FEATURETTES -->
 
-            </div><!-- /.container -->
+          <!-- /.container -->
+            <hr class="featurette-divider">
+                <h1 class="mt-5">We're Hiring.</h1> <!-- Added margin top -->
             <div class="hiring-section">
+                
                 <div>
-                    <span>Openings</span>
-                    <h1>We're hiring.</h1>
+                    
+                    
                     <div class="container px-4 py-5" id="featured-3">
-                        <h2 class="pb-2 border-bottom">Columns with icons</h2>
-                        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                            <div class="feature col">
-                                <div
-                                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                                    <svg class="bi" width="1em" height="1em">
-                                        <use xlink:href="#collection" />
-                                    </svg>
-                                </div>
-                                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with
-                                    another sentence and probably just keep going until we run out of words.</p>
-                                <a href="#" class="icon-link">
-                                    Call to action
-                                    <svg class="bi">
-                                        <use xlink:href="#chevron-right" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="feature col">
-                                <div
-                                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                                    <svg class="bi" width="1em" height="1em">
-                                        <use xlink:href="#people-circle" />
-                                    </svg>
-                                </div>
-                                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with
-                                    another sentence and probably just keep going until we run out of words.</p>
-                                <a href="#" class="icon-link">
-                                    Call to action
-                                    <svg class="bi">
-                                        <use xlink:href="#chevron-right" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="feature col">
-                                <div
-                                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                                    <svg class="bi" width="1em" height="1em">
-                                        <use xlink:href="#toggles2" />
-                                    </svg>
-                                </div>
-                                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with
-                                    another sentence and probably just keep going until we run out of words.</p>
-                                <a href="#" class="icon-link">
-                                    Call to action
-                                    <svg class="bi">
-                                        <use xlink:href="#chevron-right" />
-                                    </svg>
-                                </a>
-                            </div>
+                        <div class="d-flex justify-content-between align-items-center mb-4"> <!-- Added flex container -->
+                            <h2 class="pb-2 border-bottom">UX/UI Intern</h2>
+                            <button class="btn btn-primary" type="button">Apply</button>
                         </div>
+                        <div class="d-flex justify-content-between align-items-center mb-4"> <!-- Added flex container -->
+                            <h2 class="pb-2 border-bottom">Software Engineer Intern</h2>
+                            <button class="btn btn-primary" type="button">Apply</button>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-4"> <!-- Added flex container -->
+                            <h2 class="pb-2 border-bottom">Marketing Intern</h2>
+                            <button class="btn btn-primary" type="button">Apply</button>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-4"> <!-- Added flex container -->
+                            <h2 class="pb-2 border-bottom">Business Analyst Intern</h2>
+                            <button class="btn btn-primary" type="button">Apply</button>
+                        </div>
+                       
                     </div>
-                    <p><a class="btn btn-lg btn-primary" href="#">Find openings</a></p>
+                   
                 </div>
             </div>
         </main>

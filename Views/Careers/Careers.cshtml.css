@@ -67,3 +67,8 @@
     .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
     }
+
+    .circular-img {
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Ensures the image stays within the circular boundary */
+}
