@@ -1,0 +1,22 @@
+.header-section {
+    .header-section {
+        padding-top: 100px; /* Adjust this value to increase the height */
+        padding-bottom: 100px; /* Adjust this value to increase the height */
+        background-image: url('donwload-images/header-bk.jpeg'); /* Specify the path to your image */
+        background-size: cover; /* Cover the entire header with the background image */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+    }
+    
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
+.heading-container {
+    text-align: center;
+    margin-top: 50px; /* Optional: Adjust margin from top */
+}
+
