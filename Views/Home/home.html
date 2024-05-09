@@ -1,5 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #d9d9d9;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: black;
+          font-family: Inter;
+          font-weight: regular;
+          text-align: center;
+          padding: 14px 20px;
+          text-decoration: none;
+        }
+
+        .centered {
+          float: none;
+          margin: 0 auto;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #787878;
+        }
+
+        .active {
+          background-color: #d9d9d9;
+        }
+
+        li.download a {
+          font-weight: bold;
+          border: 1px solid black;
+          border-radius: 16px;
+          padding: 8px 40px;
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+
+        li.home a {
+          font-size: 24px;
+        }
+      </style>
+    </head>
+    <body>
+      <ul>
+        <li><a href="#initiatives">Initiatives</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li class="download" style="float: right">
+          <a href="#download">Download</a>
+        </li>
+        <li class="centered home"><a href="#home">Home</a></li>
+      </ul>
+    </body>
+  </html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
