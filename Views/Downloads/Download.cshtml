@@ -4,6 +4,57 @@
 
 <head>
     <style>
+        .footer-email-form {
+            margin-top: 10px;
+        }
+
+        .footer-email-form form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .footer-heading.footer-email-form {
+            margin-right: 4rem;
+            margin-left: auto;
+            padding-left: 0;
+        }
+
+        .footer-email-form h2 {
+            margin-bottom: 20px;
+        }
+
+        .footer-email-form form input[type="text"]:first-child,
+        .footer-email-form form input[type="email"]:first-child,
+        .footer-email-form form textarea:first-child {
+            margin-top: 20px;
+        }
+
+        .footer-email-form form input[type="text"],
+        .footer-email-form form input[type="email"],
+        .footer-email-form form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .footer-email-form form button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .footer-email-form form button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
         ul {
             list-style-type: none;
             margin: 0;
@@ -115,25 +166,95 @@
 
 
         <!-- Footer -->
-        <footer class="bg-dark text-white py-4">
+        <footer>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>&copy; 2024 Mingley. All rights reserved.</p>
-                    </div>
-                    <div class="col-md-6 text-md-right">
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                            <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+                <footer class="py-5">
+                    <div class="row">
+                        <div class="col-6 col-md-2 mb-3">
+                            <h5 class="footer-header">Index</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Goals</a></li>
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Careers</a></li>
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Roadmap</a></li>
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Download</a></li>
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Contact</a></li>
+                            </ul>
+                        </div>
 
+                        <div class="col-6 col-md-2 mb-3">
+                            <h5 class="footer-header">Resources</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Trust & Safety</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-md-2 mb-3">
+                            <h5 class="footer-header">Legal</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Security</a></li>
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Terms</a></li>
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Privacy</a></li>
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Cookie Policy & Settings</a></li>
+                                <li class="nav-item mb-2" id="footer-text"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Consumer Health Data Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-email-form">
+                            <h2>Contact Us</h2>
+                            <form action="https://api.web3forms.com/submit" method="POST">
+
+                                <!-- Replace with your Access Key -->
+                                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+                                <!-- Form Inputs. Each input must have a name="" attribute -->
+                                <input type="text" name="name" required>
+                                <input type="email" name="email" required>
+                                <textarea name="message" required></textarea>
+
+                                <!-- hCaptcha Spam Protection -->
+                                <div class="h-captcha" data-captcha="true"></div>
+
+                                <button type="submit">Submit Form</button>
+
+                            </form>
+
+
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                        <p>&copy; 2024 Mingley, All rights reserved.</p>
+                        <ul class="list-unstyled d-flex">
+                            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24"
+                                        height="24">
+                                        <use xlink:href="#twitter" />
+                                    </svg></a></li>
+                            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24"
+                                        height="24">
+                                        <use xlink:href="#instagram" />
+                                    </svg></a></li>
+                            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24"
+                                        height="24">
+                                        <use xlink:href="#facebook" />
+                                    </svg></a></li>
                         </ul>
                     </div>
-                </div>
-            </div>
-        </footer>
+                </footer>
 
-        <!-- Bootstrap JavaScript -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+                <!-- Bootstrap JavaScript -->
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     </body>
 
 </html>

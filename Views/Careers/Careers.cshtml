@@ -4,6 +4,57 @@
 
 <head>
     <style>
+        .footer-email-form {
+            margin-top: 10px;
+        }
+
+        .footer-email-form form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .footer-heading.footer-email-form {
+            margin-right: 4rem;
+            margin-left: auto;
+            padding-left: 0;
+        }
+
+        .footer-email-form h2 {
+            margin-bottom: 20px;
+        }
+
+        .footer-email-form form input[type="text"]:first-child,
+        .footer-email-form form input[type="email"]:first-child,
+        .footer-email-form form textarea:first-child {
+            margin-top: 20px;
+        }
+
+        .footer-email-form form input[type="text"],
+        .footer-email-form form input[type="email"],
+        .footer-email-form form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .footer-email-form form button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .footer-email-form form button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
         ul {
             list-style-type: none;
             margin: 0;
@@ -516,22 +567,30 @@
                                             class="nav-link p-0 text-body-secondary">Cookie Policy & Settings</a></li>
                                     <li class="nav-item mb-2" id="footer-text"><a href="#"
                                             class="nav-link p-0 text-body-secondary">Consumer Health Data Privacy
-                                            Policy</a>
-                                    </li>
+                                            Policy</a></li>
                                 </ul>
                             </div>
 
-                            <div class="col-md-5 offset-md-1 mb-3">
-                                <form>
-                                    <h5>Subscribe to our newsletter</h5>
-                                    <p>Monthly digest of what's new and exciting from us.</p>
-                                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                                        <label for="newsletter1" class="visually-hidden">Email address</label>
-                                        <input id="newsletter1" type="text" class="form-control"
-                                            placeholder="Email address">
-                                        <button class="btn btn-primary" type="button">Subscribe</button>
-                                    </div>
+                            <div class="footer-email-form">
+                                <h2>Contact Us</h2>
+                                <form action="https://api.web3forms.com/submit" method="POST">
+
+                                    <!-- Replace with your Access Key -->
+                                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+                                    <!-- Form Inputs. Each input must have a name="" attribute -->
+                                    <input type="text" name="name" required>
+                                    <input type="email" name="email" required>
+                                    <textarea name="message" required></textarea>
+
+                                    <!-- hCaptcha Spam Protection -->
+                                    <div class="h-captcha" data-captcha="true"></div>
+
+                                    <button type="submit">Submit Form</button>
+
                                 </form>
+
+
                             </div>
                         </div>
 
@@ -554,9 +613,6 @@
                         </div>
                     </footer>
                 </div>
-                <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-            </footer>
-        </div>
     </body>
 
 </html>
