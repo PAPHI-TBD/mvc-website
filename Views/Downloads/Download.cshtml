@@ -1,76 +1,139 @@
-<!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Download Now</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="Download.cshtml.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #D9D9D9;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            font-family: Inter;
+            font-weight: regular;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .centered {
+            float: none;
+            margin: 0 auto;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #787878;
+        }
+
+        .active {
+            background-color: #D9D9D9;
+        }
+
+        li.download a {
+            font-weight: bold;
+            border: 1px solid black;
+            border-radius: 16px;
+            padding: 8px 40px;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+
+        li.home a {
+            font-size: 24px;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Mingley</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Goals</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Careers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Roadmap</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Download</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Header -->
-    <header class="bg-primary py-5 text-center text-white">
-        <div class="container">
-            <h1 class="display-4">Join The Waitlist</h1>
-            <p class="lead">Creating new ways to network</p>
-            <a href="#" class="btn btn-lg btn-light">Join Now</a>
-        </div>
-    </header>
+    <ul>
+        <li><a href="#initiatives">Initiatives</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li class="download" style="float:right"><a href="#download">Download</a></li>
+        <li class="centered home"><a href="#home">Home</a></li>
+    </ul>
 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Download Now</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="Download.cshtml.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>&copy; 2024 Mingley. All rights reserved.</p>
-                </div>
-                <div class="col-md-6 text-md-right">
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                        <li class="list-inline-item"><a href="#">Terms of Use</a></li>
-
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Mingley</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Goals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Roadmap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </footer>
+        </nav>
 
-    <!-- Bootstrap JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-</body>
+        <!-- Header -->
+        <header class="bg-primary py-5 text-center text-white">
+            <div class="container">
+                <h1 class="display-4">Join The Waitlist</h1>
+                <p class="lead">Creating new ways to network</p>
+                <a href="#" class="btn btn-lg btn-light">Join Now</a>
+            </div>
+        </header>
+
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2024 Mingley. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    </body>
 
 </html>
